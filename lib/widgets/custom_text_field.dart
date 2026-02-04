@@ -1,6 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 
+//======================
+// INPUT DE TEXTO
+//================================
+
 class CustomTextField extends StatelessWidget {
   final String label;
   final String? hint;

@@ -1,5 +1,8 @@
 import 'package:flutter/material.dart';
 
+//===========================
+// PLANTILLA DE FONDO DE FORMULARIO
+//=======================
 
 
 class FormTemplate extends StatelessWidget {
@@ -15,7 +18,7 @@ class FormTemplate extends StatelessWidget {
     return Scaffold(
       body: Stack(
         children: [
-          // 🔹 FONDO (imagen COMPLETAMENTE OPACA)
+          
           Positioned.fill(
             child: Image.asset(
               'assets/images/fondo_sostenible.png',
@@ -23,7 +26,7 @@ class FormTemplate extends StatelessWidget {
             ),
           ),
 
-          // 🔹 CAPA DEL FORMULARIO
+          
           Center(
             child: SingleChildScrollView(
               child: Container(
@@ -34,7 +37,7 @@ class FormTemplate extends StatelessWidget {
                 padding: const EdgeInsets.all(32),
 
                 decoration: BoxDecoration(
-                  color: Colors.white.withOpacity(0.90), // 👈 CLAVE
+                  color: Colors.white.withOpacity(0.90), 
                   borderRadius: BorderRadius.circular(20),
                   boxShadow: [
                     BoxShadow(

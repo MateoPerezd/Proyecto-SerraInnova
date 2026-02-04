@@ -1,5 +1,9 @@
 import 'package:flutter/material.dart';
 
+//===================
+// INPUT DESPLEGABLE
+//=================0
+
 class CustomDropdown extends StatelessWidget {
   final String label;
   final List<String> items;

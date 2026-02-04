@@ -22,7 +22,7 @@ class FichaInmueblePage extends StatelessWidget {
                   label: const Text('Volver'),
                 ),
 
-  const SizedBox(height: 12),
+            const SizedBox(height: 12),
               // =========================
               // CABECERA
               // =========================
